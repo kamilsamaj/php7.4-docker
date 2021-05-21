@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    image: php7.4-docker:local
+    ports:
+      - 0.0.0.0:8080:80
